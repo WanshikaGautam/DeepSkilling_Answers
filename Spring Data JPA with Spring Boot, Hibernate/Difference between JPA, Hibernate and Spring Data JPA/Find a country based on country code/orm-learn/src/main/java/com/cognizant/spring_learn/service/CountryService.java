@@ -1,4 +1,4 @@
-package com.cognizant.spring_learn.service;
+package com.cognizant.spring_learn;
 
 import com.cognizant.spring_learn.model.Country;
 import com.cognizant.spring_learn.repository.CountryRepository;
