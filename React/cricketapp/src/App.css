@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+}
+
+#root {
+  padding: 30px;
+}
+
+.app {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #172b4d;
+  margin-bottom: 30px;
+}
+
+.section {
+  background-color: white;
+  padding: 22px;
+  margin-bottom: 25px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #1769e0;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+h3 {
+  color: #159447;
+}
+
+.player {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.player:last-child {
+  border-bottom: none;
+}
+
+.score {
+  font-weight: bold;
+}

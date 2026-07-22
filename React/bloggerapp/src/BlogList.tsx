@@ -1,0 +1,34 @@
+const blogs = [
+  {
+    id: 1,
+    title: "Learning React",
+    author: "John"
+  },
+  {
+    id: 2,
+    title: "Understanding TypeScript",
+    author: "Sarah"
+  },
+  {
+    id: 3,
+    title: "React Components",
+    author: "David"
+  }
+];
+
+function BlogList() {
+  return (
+    <div>
+      <h2>Blog List</h2>
+
+      {blogs.map((blog) => (
+        <div key={blog.id}>
+          <h3>{blog.title}</h3>
+          <p>Author: {blog.author}</p>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+export default BlogList;
